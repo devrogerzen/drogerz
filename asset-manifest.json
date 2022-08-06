@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/drogerz/static/css/main.6e6f163d.css",
+    "main.js": "/drogerz/static/js/main.c62090c1.js",
+    "index.html": "/drogerz/index.html",
+    "main.6e6f163d.css.map": "/drogerz/static/css/main.6e6f163d.css.map",
+    "main.c62090c1.js.map": "/drogerz/static/js/main.c62090c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e6f163d.css",
+    "static/js/main.c62090c1.js"
+  ]
+}
