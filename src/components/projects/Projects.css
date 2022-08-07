@@ -1,0 +1,128 @@
+.layaut-main_projects {
+  width: 100%;
+  background-color: #000;
+
+  min-height: 100vh;
+  color: #fff;
+}
+
+.card-container-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-projects {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #232323;
+  border-radius: 10px;
+  transition: 0.8s;
+  margin-bottom: 60px;
+  user-select: none;
+}
+
+.card-container-img {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img {
+  max-width: 50%;
+  padding: 10px 0;
+}
+
+.card-text-resume {
+  width: 80%;
+}
+
+.card-title-projects_h2 {
+  margin: 0;
+  padding: 0;
+  margin-top: 2px;
+}
+
+.card-description-projects_p {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  font-weight: 500;
+  width: 90%;
+}
+
+.card-projects-dependencies_ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-projects-dependencies_li {
+  background-color: #fff;
+  color: #000;
+  list-style: none;
+  padding: 4px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-right: 8px;
+  font-size: 17px;
+  margin-bottom: 8px;
+  border-radius: 3px;
+  user-select: none;
+  border: 2px #000 solid;
+}
+
+.card-bottons {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.card-bottons_botton {
+  border: solid 2px #fff;
+  color: #fff;
+  background-color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 30px;
+  margin-left: 50px;
+  cursor: pointer;
+  transition: .3s;
+  display: flex;
+  align-items: center;
+}
+
+.card-bottons_botton:hover {
+  transform: scale(1.2);
+  transition: .3s;
+}
+
+.card-projects:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  background-color: #f2f2f2;
+  color: #000;
+}
+
+@media (max-width: 968px) {
+  .card-projects {
+    flex-direction: column;
+  }
+
+  .card-container-img {
+    width: 60%;
+  }
+
+  .card-img {
+    margin-top: 10px;
+    width: 90%;
+  }
+
+  .card-description-projects_p {
+    width: 100%;
+  }
+}
