@@ -24,13 +24,33 @@ export const Projects = () => {
                 <ul className="card-projects-dependencies_ul">
                   {item.listech.map((item, idx) => {
                     return (
-                      <li className="card-projects-dependencies_li" key={idx}>{item}</li>
+                      <li className="card-projects-dependencies_li" key={idx}>
+                        {item}
+                      </li>
                     );
                   })}
                 </ul>
                 <div className="card-bottons">
-                  <button className="card-bottons_botton">Visitar</button>
-                  <button className="card-bottons_botton">GitHub</button>
+                  <button className="card-bottons_botton">
+                    <a
+                      className="projects-links_bottons_a"
+                      href={item.linklive}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Visitar
+                    </a>
+                  </button>
+                  <button className="card-bottons_botton">
+                    <a
+                      className="projects-links_bottons_a"
+                      href={item.linkgithub}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      GitHub
+                    </a>
+                  </button>
                 </div>
               </article>
             </div>
@@ -40,4 +60,3 @@ export const Projects = () => {
     </div>
   );
 };
-

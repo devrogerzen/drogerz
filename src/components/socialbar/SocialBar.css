@@ -22,6 +22,11 @@
   transition: .8s;
 }
 
+.bar-icons {
+  text-decoration: none;
+  color: #fff;
+}
+
 .social-nav_li:hover {
 transition: .8s;
 transform: scale(.8);
