@@ -16,7 +16,7 @@ export const NotFound = () => {
     <TextCenter404>
       <h1>ERROR 404</h1>
       <h2>Esta sección de la Página no es Valida</h2>
-      <Link to="/">Volver al Inicio</Link>
+      <Link to="/portfolio">Volver al Inicio</Link>
     </TextCenter404>
   )
 }
