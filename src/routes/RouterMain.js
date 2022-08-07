@@ -7,7 +7,7 @@ import { Contact } from "../components/contact/Contact"
 
 export const RouterMain = () => {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/">
       <Routes>
         <Route path="/" element={<Portfolio />} />
         <Route path="/portfolio" element={<Portfolio />} />
