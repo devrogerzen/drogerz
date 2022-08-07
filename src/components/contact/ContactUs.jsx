@@ -1,8 +1,11 @@
 import React, { useRef } from "react";
 import swal from "sweetalert";
 import emailjs from "@emailjs/browser";
+import { useNavigate } from "react-router-dom";
 
 export const ContactUs = () => {
+
+  const navigate = useNavigate()
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -22,8 +25,10 @@ export const ContactUs = () => {
             "Recibido " +
               usuarioform.name +
               " Gracias por tu mensaje te respondere a " +
-              usuarioform.email + "en la brevedad posible"
+              usuarioform.email + " en la brevedad posible"
           );
+
+          navigate("/")
         },
         (error) => {
           console.log(error.text);

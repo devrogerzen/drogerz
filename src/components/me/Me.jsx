@@ -1,4 +1,4 @@
-import NavBarPortfolio from "../portfolio/navbar/NavBarPortfolio";
+import NavBarPortfolio from "../navbar/NavBarPortfolio";
 import {
   backend,
   database,

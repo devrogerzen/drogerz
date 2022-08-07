@@ -1,21 +1,21 @@
-import { BrowserRouter as Router, Routes, Route, } from "react-router-dom"
-import NavBarPortfolio from "../components/navbar/NavBarPortfolio";
-import "./RouterMain.css"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { NotFound } from "../components/mantenience/NotFound";
+import Portfolio from "../components/portfolio/Portfolio";
+import { Me } from "../components/me/Me"
+import { Projects } from "../components/projects/Projects"
+import { Contact } from "../components/contact/Contact"
 
 export const RouterMain = () => {
   return (
-
-    <div className="layaut-main">
-
-      <NavBarPortfolio />
-      <h1>Comenzando Portafolio</h1>
     <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/" element={""} />
-        <Route path="*" element={"<NotFound />"} />
+        <Route path="/" element={<Portfolio />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/me" element={<Me />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
-
-    </div>
   );
 };

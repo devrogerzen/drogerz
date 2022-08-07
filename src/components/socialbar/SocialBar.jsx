@@ -1,7 +1,7 @@
 import { FaGithubSquare, FaLinkedin, FaWhatsappSquare } from "react-icons/fa";
-import "./Social_Bar.css";
+import "./SocialBar.css";
 
-const Social_Bar = () => {
+const SocialBar = () => {
   return (
     <ul className="social-nav_ul">
       <li className="social-nav_li">
@@ -17,4 +17,4 @@ const Social_Bar = () => {
   );
 };
 
-export default Social_Bar;
+export default SocialBar;

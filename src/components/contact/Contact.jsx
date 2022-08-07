@@ -1,5 +1,5 @@
 import React from "react";
-import NavBarPortfolio from "../portfolio/navbar/NavBarPortfolio";
+import NavBarPortfolio from "../navbar/NavBarPortfolio";
 import "./Contact.css";
 import { ContactUs } from "./ContactUs";
 

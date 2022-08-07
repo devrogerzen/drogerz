@@ -5,8 +5,8 @@ import { Parpadea } from "../../helpers/Parpadea";
 const LetreroContainer = styled.div`
   display: flex;
   flex-direction: column;
-  height: 70vh;
-  max-width: 70vh;
+min-height: 65vh;
+  max-height: 70vh;
   overflow: hidden;
   color: #fff;
   justify-content: center;
@@ -15,7 +15,6 @@ const LetreroContainer = styled.div`
   font-weight: 100;
   text-transform: uppercase;
   user-select: none;
-  z-index: -900;
 `;
 const LetreroText = styled.h1`
   font-size: 2.5rem;
@@ -27,11 +26,7 @@ const LetreroText = styled.h1`
     font-size: 1.5rem;
   }
 `;
-/* const LogoDrogerZ = styled.img`
-width: 200px;
-margin-left: 5vw;
 
-` */
 const Letrero = () => {
   return (
     <LetreroContainer>
