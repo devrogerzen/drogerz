@@ -11,7 +11,7 @@ const NavBarPortfolio = () => {
             ({ isActive }) => {
               return isActive ? "navlink_active" : "nav_navlink"
           }}>
-            Portafolio
+            Inicio
           </NavLink>
         </li>
         <li className="nav_li">
@@ -19,7 +19,7 @@ const NavBarPortfolio = () => {
             ({ isActive }) => {
               return isActive ? "navlink_active" : "nav_navlink"
           }}>
-            Me  <GiJigsawPiece />
+            tecnologías <GiJigsawPiece />
           </NavLink>
         </li>
         <li className="nav_li">
