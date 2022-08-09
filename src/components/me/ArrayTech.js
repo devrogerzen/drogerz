@@ -17,6 +17,7 @@ import MavenLogon from "../../images/logos_tech_originals/maven-logon.png";
 import PostgresqlLogon from "../../images/logos_tech_originals/postgresql-logon.png";
 import ChakraUILogon from "../../images/logos_tech_originals/chakraui-logon.png";
 import UMLLogon from "../../images/logos_tech_originals/uml-logon.png"
+import FramerMotionLogon from "../../images/logos_tech_originals/framermotion-logon.png"
 
 export const languages = [
   {
@@ -45,6 +46,10 @@ export const frontend = [
   {
     nombre: "Css",
     img: CssLogon,
+  },
+   {
+    nombre: "Framer Motion",
+    img: FramerMotionLogon,
   },
   {
     nombre: "Bootstrap",

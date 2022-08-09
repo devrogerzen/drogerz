@@ -5,6 +5,8 @@ import SShotDogApi from "../../images/screenshots_projects/app-thedog-api.png";
 import SShotPokeDex from "../../images/screenshots_projects/pokeapi-pokedex.png";
 import SShotTask from "../../images/screenshots_projects/app-tareas.png";
 import SShotXfolio from "../../images/screenshots_projects/xfolio-app.png";
+import SShotCalcuFreeCodeCamp from "../../images/screenshots_projects/calculator-freecodecamp-react.png";
+
 
 export const projectsData = [
   {
@@ -89,8 +91,16 @@ export const projectsData = [
     img: SShotTask,
     title: "Task TODO APP",
     desc: "Gestionador de Tareas",
-    listech: ["React", "Javascript", "Html", "Css"],
+    listech: ["React", "Javascript", "Html", "Css, "],
     linkgithub: "https://github.com/devrogerzen/To-Do_Tareas",
     linklive: "https://to-do-app-drogerz.netlify.app/"
+  },
+  {
+    img: SShotCalcuFreeCodeCamp,
+    title: "Calculator FreeCodeCamp",
+    desc: "Calculadora desarrollada en curso FreeCodeCamp",
+    listech: ["React", "Javascript", "Html", "Css", "mathjs"],
+    linkgithub: "https://github.com/devrogerzen/Calculadora-FreeCodeCamp-React",
+    linklive: "https://calculator-freecodecamp-react.netlify.app/"
   },
 ];
