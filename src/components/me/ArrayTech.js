@@ -18,6 +18,7 @@ import PostgresqlLogon from "../../images/logos_tech_originals/postgresql-logon.
 import ChakraUILogon from "../../images/logos_tech_originals/chakraui-logon.png";
 import UMLLogon from "../../images/logos_tech_originals/uml-logon.png"
 import FramerMotionLogon from "../../images/logos_tech_originals/framermotion-logon.png"
+import NodeLogon from "../../images/logos_tech_originals/nodejs-logon.png"
 
 export const languages = [
   {
@@ -77,6 +78,10 @@ export const backend = [
   {
     nombre: "Maven",
     img: MavenLogon,
+  },
+  {
+    nombre: "Node",
+    img: NodeLogon
   },
 ];
 
