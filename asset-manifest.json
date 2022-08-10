@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/drogerz/static/css/main.c5d8e690.css",
-    "main.js": "/drogerz/static/js/main.8e02e4a5.js",
+    "main.js": "/drogerz/static/js/main.7493225f.js",
     "static/media/nightlife.gif": "/drogerz/static/media/nightlife.156f582936bbbe1aeffd.gif",
     "static/media/pokeapi-pokedex.png": "/drogerz/static/media/pokeapi-pokedex.c306e5c8663747f3a00d.png",
     "static/media/xfolio-app.png": "/drogerz/static/media/xfolio-app.c2873ce16c16b5d0add1.png",
     "static/media/react-redux-api-reqres.png": "/drogerz/static/media/react-redux-api-reqres.3e324b1654a1bf1f8f2f.png",
     "static/media/sqlserver-logon.png": "/drogerz/static/media/sqlserver-logon.9b4d263c8b8cca900410.png",
     "static/media/app-thedog-api.png": "/drogerz/static/media/app-thedog-api.ef7ae4851c373399b8e0.png",
+    "static/media/nodejs-logon.png": "/drogerz/static/media/nodejs-logon.fa48bac719f4fea35a2b.png",
     "static/media/maven-logon.png": "/drogerz/static/media/maven-logon.d28b7aefa552f928dd41.png",
     "static/media/hibernate-logon.png": "/drogerz/static/media/hibernate-logon.bb7ac51da0336b4a3d62.png",
     "static/media/java-logon.png": "/drogerz/static/media/java-logon.22921381c97b0a610989.png",
@@ -31,10 +32,10 @@
     "static/media/javascript-logon.png": "/drogerz/static/media/javascript-logon.266bd9fb2663dcc057b4.png",
     "index.html": "/drogerz/index.html",
     "main.c5d8e690.css.map": "/drogerz/static/css/main.c5d8e690.css.map",
-    "main.8e02e4a5.js.map": "/drogerz/static/js/main.8e02e4a5.js.map"
+    "main.7493225f.js.map": "/drogerz/static/js/main.7493225f.js.map"
   },
   "entrypoints": [
     "static/css/main.c5d8e690.css",
-    "static/js/main.8e02e4a5.js"
+    "static/js/main.7493225f.js"
   ]
 }
