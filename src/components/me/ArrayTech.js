@@ -19,6 +19,7 @@ import ChakraUILogon from "../../images/logos_tech_originals/chakraui-logon.png"
 import UMLLogon from "../../images/logos_tech_originals/uml-logon.png"
 import FramerMotionLogon from "../../images/logos_tech_originals/framermotion-logon.png"
 import NodeLogon from "../../images/logos_tech_originals/nodejs-logon.png"
+import ExpressLogon from "../../images/logos_tech_originals/express-logon.png"
 
 export const languages = [
   {
@@ -82,6 +83,10 @@ export const backend = [
   {
     nombre: "Node",
     img: NodeLogon
+  },
+  {
+    nombre: "Express",
+    img: ExpressLogon
   },
 ];
 
