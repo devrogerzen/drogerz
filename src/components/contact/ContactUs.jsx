@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { motion } from "framer-motion"
 import swal from "sweetalert";
 import emailjs from "@emailjs/browser";
 import { useNavigate } from "react-router-dom";
@@ -45,7 +46,12 @@ export const ContactUs = () => {
   };
 
   return (
-    <form className="container-form" ref={form} onSubmit={sendEmail}>
+    <motion.form className="container-form" ref={form} onSubmit={sendEmail}
+    initial={{ opacity: 0 }}
+    animate={{opacity: 1}}
+    transition={{ duration: 2 }}
+    viewport={{ once: true }}
+    >
       <input
         className="form-input"
         type="text"
@@ -66,6 +72,6 @@ export const ContactUs = () => {
         placeholder="Dejame un mensaje aquí"
       />
       <input className="form-botton-send" type="submit" value="Enviar" />
-    </form>
+    </motion.form>
   );
 };

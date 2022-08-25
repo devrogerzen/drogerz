@@ -1,10 +1,18 @@
 import { NavLink } from "react-router-dom";
 import { GiJigsawPiece } from "react-icons/gi"
+import { motion } from 'framer-motion'
+
 import "./NavBarPortfolio.css";
 
 const NavBarPortfolio = () => {
   return (
-    <nav className="navbar">
+    <motion.nav 
+    className="navbar" 
+    initial={{ opacity: 0 }}
+    animate={{opacity: 1 }}
+    transition={{ duration: 1 }}
+    viewport={{ once: true }}
+    >
       <ul className="nav_ul">
         <li className="nav_li">
           <NavLink to="/" className={
@@ -39,7 +47,7 @@ const NavBarPortfolio = () => {
           </NavLink>
         </li>
       </ul>
-    </nav>
+    </motion.nav>
   );
 };
 
