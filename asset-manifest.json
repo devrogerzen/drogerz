@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/drogerz/static/css/main.c5d8e690.css",
-    "main.js": "/drogerz/static/js/main.f58f1a20.js",
+    "main.js": "/drogerz/static/js/main.c45c3326.js",
     "static/media/nightlife.gif": "/drogerz/static/media/nightlife.156f582936bbbe1aeffd.gif",
     "static/media/pokeapi-pokedex.png": "/drogerz/static/media/pokeapi-pokedex.c306e5c8663747f3a00d.png",
     "static/media/xfolio-app.png": "/drogerz/static/media/xfolio-app.c2873ce16c16b5d0add1.png",
@@ -32,10 +32,10 @@
     "static/media/javascript-logon.png": "/drogerz/static/media/javascript-logon.266bd9fb2663dcc057b4.png",
     "index.html": "/drogerz/index.html",
     "main.c5d8e690.css.map": "/drogerz/static/css/main.c5d8e690.css.map",
-    "main.f58f1a20.js.map": "/drogerz/static/js/main.f58f1a20.js.map"
+    "main.c45c3326.js.map": "/drogerz/static/js/main.c45c3326.js.map"
   },
   "entrypoints": [
     "static/css/main.c5d8e690.css",
-    "static/js/main.f58f1a20.js"
+    "static/js/main.c45c3326.js"
   ]
 }
